@@ -1,0 +1,41 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    background-color: #c0ceeb;
+  }
+  
+  h1 {
+    color: rgb(43, 43, 43);
+  }
+  
+  #game_board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .cells {
+    width: 90px;
+    height: 90px;
+    background-color:aliceblue;
+    border: 3px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.7em;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .cells:hover {
+    background-color: #bfb8b8;
+  }
+  
+  #status {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #4b4b4b;
+    margin-top: 20px;
+  }  
